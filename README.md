@@ -28,7 +28,7 @@ use {
 ```vim
 Plug 'junegunn/fzf', {'do': {-> fzf#install()}}
 Plug 'junegunn/fzf.vim'  " to enable preview (optional)
-Plug 'ojroques/nvim-lspfuzzy'
+Plug 'ojroques/nvim-lspfuzzy', { 'branch': 'main' }
 ```
 
 ## Usage
